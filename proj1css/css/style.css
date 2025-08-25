@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+  
+}
+
+html
+{
+    font-size: 10px;
+}
+header,main,footer
+{
+  padding-left: 4rem;
+    padding-right: 4rem;
+}
+header
+{
+    background: radial-gradient(circle at right,rgba(231, 147, 246, 0.83),transparent 40%),  
+     radial-gradient(circle at top left,rgba(18, 156, 241, 0.818),transparent 40%) ,
+     linear-gradient(135deg,#0a0a23 , #000) ;
+     color: white;
+}
+
+.heading
+{
+    padding: 2rem;
+ 
+}
+.section1
+{
+width: 50%;
+margin-bottom: 3rem;
+}
+.card
+{
+    border:1px solid beige ;
+    margin-bottom: 2rem;
+     width: 20%;
+    display: inline-block;
+    padding: 2rem;
+}
+
+.view-pets
+{
+   height: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5rem ;
+}
+.mange-pets
+{
+    height: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5rem 5rem 5rem 5rem;
+}
+.cards .pets-card
+{
+ display: inline-block;
+ border: 0.2rem solid black;
+ border-radius: 2rem;
+ padding: 1rem;
+ width:40%;
+ 
+}
+.cards .pets-card .photos img{
+    border-radius: 1rem;
+}
+.cards
+{
+    display: inline-block;
+}
+.info
+{
+padding: 1rem;
+}
+footer
+{
+    margin: 1rem;
+}
+.display-inline
+{
+    display: inline-block;
+}
